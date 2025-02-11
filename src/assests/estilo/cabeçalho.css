@@ -1,0 +1,147 @@
+header {
+    background-color: #143447;
+
+}
+
+.improve {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.improve .lista-primaria {
+    display: flex;
+    align-items: center;
+
+}
+
+.servico {
+    background-color: #143447;
+    border: none;
+    cursor: pointer;
+
+}
+
+.lista-primaria img {
+    max-width: 49px;
+    filter: invert(100%);
+
+}
+
+.explorar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    padding: 16px 41px;
+    background-color: #143447;
+    color: #eef1f3;
+    border: 1px solid #eef1f3;
+    cursor: pointer;
+
+}
+
+.explorar img {
+    max-width: 18px;
+    filter: invert(100%);
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 367px;
+    height: 48px;
+    margin-left: 8px;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #121212;
+
+}
+
+.search-nav {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0px 12px;
+    color: #121212;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+
+}
+
+.search img {
+    filter: invert(100%);
+    padding-left: 8px;
+    
+}
+
+.vertical .lista-secundaria {
+    width: 124px;
+    height: 120px;
+    padding-top: 24px;
+    margin-top: 32px;
+    position: absolute;
+    background-color: #B9D9EB;
+
+
+}
+
+.lista-secundaria ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #121212;
+    margin-top: 42px;
+    
+
+}
+
+
+
+a {
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #121212;
+    
+}
+
+.lista-secundaria img {
+    max-width: 28px;
+    filter: invert(100%);
+    
+    
+}
+
+.icone {
+    padding-left: 9px;
+    padding-top: 4px;
+    
+}
+
+.vertical .lista-secundaria::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    background-color: #B9D9EB;
+    transform: rotate(45deg)
+}
+
+.vertical .dropdown {
+    
+}
