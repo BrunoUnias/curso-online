@@ -91,7 +91,9 @@ header {
     margin-top: 32px;
     position: absolute;
     background-color: #B9D9EB;
-
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
 
 }
 
@@ -139,9 +141,14 @@ a {
     width: 20px;
     height: 20px;
     background-color: #B9D9EB;
-    transform: rotate(45deg)
+    transform: rotate(45deg);
+    
 }
 
-.vertical .dropdown {
-    
+
+
+.dropdown .lista-secundaria.ativo {
+    opacity: 1;
+    visibility: visible;
+
 }
