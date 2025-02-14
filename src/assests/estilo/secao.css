@@ -1,0 +1,61 @@
+.auto {
+    background: #B9D9EB;
+    background-size: auto 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #141414;
+    margin: 12px 0 0 0 ;
+    padding: 18px;
+
+}
+
+.carreira {
+    font-size: 17px;
+
+}
+
+.carreira2  {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.conteudo {
+    display: flex;
+    padding: 74px 74px;
+
+}
+
+.conteudoLista {
+    display: flex;
+    flex-direction: column;
+    margin: 9px;
+}
+
+.conteudoLista li {
+    margin: 9px;
+}
+
+.conteudoLista h1 {
+    font-size: 80px;
+    color: #1F75FE;
+
+}
+
+.conteudoLista span {
+    font-size: 44px;
+}
+
+.conteudoLista button {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 16px 14px;
+    background-color: #1F75FE;
+    color: #eef1f3;
+    border: 1px solid #eef1f3;
+    cursor: pointer;
+    border-radius: 5px;
+}
