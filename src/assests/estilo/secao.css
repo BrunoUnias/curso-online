@@ -58,4 +58,15 @@
     border: 1px solid #eef1f3;
     cursor: pointer;
     border-radius: 5px;
+
+}
+
+.estudo {
+    background: url(../imagens/51a7e075-bb24-49cd-a4f7-460207aa8843.jpg);
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.7);
+
 }
