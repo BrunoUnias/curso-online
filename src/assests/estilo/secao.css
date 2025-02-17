@@ -62,11 +62,72 @@
 }
 
 .estudo {
-    background: url(../imagens/51a7e075-bb24-49cd-a4f7-460207aa8843.jpg);
+    background: url(../imagens/51a7e075-bb24-49cd-a4f7-460207aa8843.png);
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 60vh;
     background-position: center;
     background-size: cover;
-    filter: brightness(0.7);
+    
 
 }
+
+.explorador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 4;
+
+}
+
+.explorador-titulo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: bold;
+    padding-top: 48px;
+    padding-bottom: 18px;
+    
+}
+
+.explorador-titulo img {
+    max-width: 114px;
+    filter: invert(100%);
+
+}
+
+.vaga {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 16px;
+
+}
+
+.vaga span {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.explora {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+    background-color: #1F75FE;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.explora img {
+    max-width: 44px;
+    filter: invert(100%);
+
+}
+
