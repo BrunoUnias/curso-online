@@ -1,0 +1,18 @@
+.rodape {
+    background: hsl(202, 56%, 18%);
+    border-top: 1px solid #39FF14;
+
+}
+
+.rodape ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rodape span {
+    font-size: 24px;
+    color: #eef1f3;
+    margin-bottom: 8px;
+}
