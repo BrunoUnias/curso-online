@@ -11,18 +11,19 @@
     <link rel="stylesheet" href="src/assests/estilo/principal.css">
     <link rel="stylesheet" href="src/assests/estilo/secao.css">
     <link rel="stylesheet" href="src/assests/estilo/rodape.css">
+    <script defer src="src/assests/scripts/menu.js"></script>
 </head>
 <body>
     <header>
         <div>
             <nav>
                 <div class="improve">
-                    <ul class="lista-primaria">
-                        <li>
+                    <ul class="lista-primaria" >
+                        <li id="button">
                             <span class="servico">
                                 <img class="certificado" src="src/assests/icones/menu-de-tres-linhas.png" alt="">
                             </span>
-                            <div class="vertical">
+                            <div class="vertical" id="menu">
                                 <nav class="dropdown">
                                     <ul class="lista-secundaria">
                                         <li><a href="" class="icone"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
@@ -35,9 +36,9 @@
                             </div>
                             
                         </li>
-                        <li>
+                        <li id="explorar">
                             <button class="explorar">Explorar <img src="src/assests/icones/seta-para-baixo.png" alt=""></button>
-                            <div class="segundo-vertical">
+                            <div class="segundo-vertical" id="menuVertical">
                                 <nav class="lista-tres">
                                     <ul class="assunto">
                                         <p>Assuntos</p>
