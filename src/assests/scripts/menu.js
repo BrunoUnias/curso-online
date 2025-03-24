@@ -23,3 +23,12 @@ exibir.addEventListener("click", function () {
     }
 
 })
+
+let removeElemento = document.getElementById("blue");
+
+console.log(removeElemento);
+
+removeElemento.addEventListener("click" , function() {
+    removeElemento.remove();
+
+})
