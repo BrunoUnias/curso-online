@@ -1,7 +1,7 @@
 let button = document.getElementById("button");
 let menu = document.getElementById("menu");
 
-button.addEventListener("click", function () {
+button.addEventListener("click", () => {
     if(menu.style.display === "block") {
         menu.style.display = "none";
 
@@ -14,7 +14,7 @@ button.addEventListener("click", function () {
 let exibir = document.getElementById("explorar");
 let vert = document.getElementById("menuVertical");
 
-exibir.addEventListener("click", function () {
+exibir.addEventListener("click", () => {
     if(vert.style.display === "block") {
         vert.style.display = "none";
 
