@@ -27,6 +27,8 @@
 
 <img src="src/assests/imagens/Captura de tela_2-7-2025_212543_.jpeg" alt="">
 
+ <a  href="https://brunounias.github.io/curso-online/">Link para acessa</a>
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
