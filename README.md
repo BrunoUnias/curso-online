@@ -25,18 +25,7 @@
 
 ### Resultado 
 
-Imagem 1
-
-<img src="src/captura/Captura de tela_1-7-2025_212336_.jpeg" alt="">
-
-Imagem 2
-
-<img src="src/captura/Captura de tela_1-7-2025_212451_.jpeg" alt="">
-
-Imagem 3
-
-<img src="src/captura/Captura de tela_1-7-2025_212534_.jpeg" alt="">
-
+<img src="src/assests/imagens/Captura de tela_2-7-2025_212543_.jpeg" alt="">
 
 ### 🛠 Tecnologias
 
